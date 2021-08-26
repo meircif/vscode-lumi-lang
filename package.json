@@ -1,0 +1,25 @@
+{
+    "name": "lumi",
+    "displayName": "Lumi",
+    "description": "Lumi language support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "lumi",
+            "aliases": ["Lumi", "lumi", "lumi-lang"],
+            "extensions": [".lm",".lumi"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "lumi",
+            "scopeName": "source.lumi",
+            "path": "./syntaxes/lumi.tmLanguage.json"
+        }]
+    }
+}
