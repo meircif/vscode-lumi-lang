@@ -3,12 +3,20 @@
     "displayName": "Lumi",
     "description": "Lumi language support",
     "version": "0.0.1",
+    "publisher": "meircif",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.59.0"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/meircif/vscode-lumi-lang"
     },
     "categories": [
         "Programming Languages"
     ],
+    "keywords": ["lumi", "lumi-lang"],
     "contributes": {
         "languages": [{
             "id": "lumi",
