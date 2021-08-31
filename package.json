@@ -1,7 +1,7 @@
 {
     "name": "lumi",
-    "displayName": "Lumi",
-    "description": "Lumi language support",
+    "displayName": "Lumi Language",
+    "description": "Syntax highlighting for Lumi language files.",
     "version": "0.0.1",
     "publisher": "meircif",
     "icon": "icon.png",
@@ -16,18 +16,38 @@
     "categories": [
         "Programming Languages"
     ],
-    "keywords": ["lumi", "lumi-lang"],
+    "keywords": [
+        "lumi",
+        "lumi-lang"
+    ],
     "contributes": {
-        "languages": [{
-            "id": "lumi",
-            "aliases": ["Lumi", "lumi", "lumi-lang"],
-            "extensions": [".lm",".lumi"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "lumi",
-            "scopeName": "source.lumi",
-            "path": "./syntaxes/lumi.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "lumi",
+                "aliases": [
+                    "Lumi",
+                    "lumi",
+                    "lumi-lang"
+                ],
+                "extensions": [
+                    ".lm",
+                    ".lumi"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "lumi",
+                "scopeName": "source.lumi",
+                "path": "./syntaxes/lumi.tmLanguage.json"
+            }
+        ],
+        "configurationDefaults": {
+            "[lumi]": {
+                "editor.tabSize": 4,
+                "editor.insertSpaces": true
+            }
+        }
     }
 }
