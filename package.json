@@ -2,7 +2,7 @@
     "name": "lumi",
     "displayName": "Lumi Language",
     "description": "Syntax highlighting for Lumi language files.",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "meircif",
     "icon": "icon.png",
     "engines": {
