@@ -27,6 +27,6 @@
     ],
     "wordPattern": "[A-Za-z][A-Za-z0-9\\-]*",
     "indentationRules": {
-        "increaseIndentPattern": "^ *(struct|class|interface|main|enum|func|test|mock|native struct|for|try|catch|block|if|else|else-if|if-ok|if-error|else-if-ok|else-if-error|loop!?|loop-infinite|repeat|while|switch|case|default)\\s.*$",
+        "increaseIndentPattern": "^ *(struct|class|interface|main|enum|func|test|mock|native struct|native export|for|try|catch|block|if|else|else-if|if-ok|if-error|else-if-ok|else-if-error|loop!?|loop-infinite|repeat|while|switch|case|default)\\s.*$",
     }
 }
